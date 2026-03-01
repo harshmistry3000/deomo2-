@@ -4,7 +4,6 @@ import { defineConfig } from "vite"
 
 export default defineConfig({
   plugins: [react()],
-  base: "/deomo2-/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
