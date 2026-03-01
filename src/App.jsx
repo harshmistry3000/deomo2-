@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { HoleBackground } from '@/components/animate-ui/components/backgrounds/hole';
 import { Navbar } from '@/components/Navbar';
 import { CloudDevelopment } from '@/pages/CloudDevelopment';
@@ -24,7 +24,7 @@ function CloudDevelopmentPage() {
 
 function App() {
   return (
-    <Router basename="/deomo2-/">
+    <Router>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/cloud-development" element={<CloudDevelopmentPage />} />
