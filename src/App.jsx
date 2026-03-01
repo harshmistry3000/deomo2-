@@ -24,7 +24,7 @@ function CloudDevelopmentPage() {
 
 function App() {
   return (
-    <Router>
+    <Router basename="/deomo2-/">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/cloud-development" element={<CloudDevelopmentPage />} />
